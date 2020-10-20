@@ -50,6 +50,13 @@ Route::post('tps/create','TpsController@create');
 Route::post('tps/edit','TpsController@edit');
 Route::get('tps/delete','TpsController@delete');
 
+Route::get('paslon','PaslonController@view');
+Route::get('paslon/get-all','PaslonController@getAll');
+Route::get('paslon/get','PaslonController@get');
+Route::post('paslon/create','PaslonController@create');
+Route::post('paslon/edit','PaslonController@edit');
+Route::get('paslon/delete','PaslonController@delete');
+
 
 
 
